@@ -1,7 +1,7 @@
 Playing Book Common
 ===================
 
-Book common for playful applications.
+Book common for building playful applications.
 
 # Usage
 
