@@ -20,6 +20,6 @@ ChapterEntity.expose('metadata', (obj, options) => {
   return fp.sortKeys(obj.metadata);
 });
 
-ChapterEntity.excepts('destroyedAt');
+ChapterEntity.excepts('_id');
 
 export default ChapterEntity.asImmutable();

@@ -20,6 +20,6 @@ BookEntity.expose('metadata', (obj, options) => {
   return fp.sortKeys(obj.metadata);
 });
 
-BookEntity.excepts('destroyedAt');
+BookEntity.excepts('_id');
 
 export default BookEntity.asImmutable();
