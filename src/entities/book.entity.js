@@ -22,4 +22,4 @@ BookEntity.expose('metadata', (obj, options) => {
 
 BookEntity.discard('_id');
 
-export default BookEntity.asImmutable();
+export default BookEntity.freeze();

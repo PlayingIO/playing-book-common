@@ -22,4 +22,4 @@ ChapterEntity.expose('metadata', (obj, options) => {
 
 ChapterEntity.discard('_id');
 
-export default ChapterEntity.asImmutable();
+export default ChapterEntity.freeze();
