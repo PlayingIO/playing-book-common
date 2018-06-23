@@ -5,6 +5,7 @@ export default {
     "facets":[
       "Folderish",
       "Versionable",
+      "Orderable",
       "Publishable",
       "Commentable",
       "HasRelatedText",
