@@ -1,8 +1,8 @@
-import DocTypes from './constants/doc-types';
-import BookEntity from './entities/book.entity';
-import ChapterEntity from './entities/chapter.entity';
+const DocTypes = require('./constants/doc-types');
+const BookEntity = require('./entities/book.entity');
+const ChapterEntity = require('./entities/chapter.entity');
 
-export default {
+module.exports = {
   DocTypes,
   BookEntity,
   ChapterEntity

@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   book: {
     "type":"Book",
     "packages": "playing-book-elements",

@@ -1,6 +1,6 @@
-import Entity from 'mostly-entity';
-import fp from 'mostly-func';
-import { BlobEntity, DocTypes } from 'playing-content-common';
+const Entity = require('mostly-entity');
+const fp = require('mostly-func');
+const { BlobEntity, DocTypes } = require('playing-content-common');
 
 const ChapterEntity = new Entity('Chapter', {
   file: { using: BlobEntity },
@@ -22,4 +22,4 @@ ChapterEntity.expose('metadata', (obj, options) => {
 
 ChapterEntity.discard('_id');
 
-export default ChapterEntity.freeze();
+module.exports = ChapterEntity.freeze();
