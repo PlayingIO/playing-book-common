@@ -9,7 +9,7 @@ const BookEntity = new Entity('Book', {
 
 BookEntity.expose('metadata', (obj, options) => {
   obj.metadata = obj.metadata || {};
-  
+
   const Types = options.DocTypes || DocTypes;
 
   if (Types[obj.type]) {
